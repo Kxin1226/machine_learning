@@ -1,0 +1,71 @@
+=== Evaluation on test set for each kernel ===
+Test size: 55
+Test set class distribution:
+1: 29
+0: 26
+
+Kernel: linear
+Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1: 1.0000
+Confusion matrix:
+26 0
+0 29
+
+Kernel: rbf
+Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1: 1.0000
+Confusion matrix:
+26 0
+0 29
+
+Kernel: poly
+Accuracy: 0.9273, Precision: 0.8788, Recall: 1.0000, F1: 0.9355
+Confusion matrix:
+22 4
+0 29
+
+Kernel: sigmoid
+Accuracy: 0.7273, Precision: 0.7692, Recall: 0.6897, F1: 0.7273
+Confusion matrix:
+20 6
+9 20
+
+=== Classification reports (short) ===
+
+Kernel: linear
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000        26
+           1     1.0000    1.0000    1.0000        29
+
+    accuracy                         1.0000        55
+   macro avg     1.0000    1.0000    1.0000        55
+weighted avg     1.0000    1.0000    1.0000        55
+
+Kernel: rbf
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000        26
+           1     1.0000    1.0000    1.0000        29
+
+    accuracy                         1.0000        55
+   macro avg     1.0000    1.0000    1.0000        55
+weighted avg     1.0000    1.0000    1.0000        55
+
+Kernel: poly
+              precision    recall  f1-score   support
+
+           0     1.0000    0.8462    0.9167        26
+           1     0.8788    1.0000    0.9355        29
+
+    accuracy                         0.9273        55
+   macro avg     0.9394    0.9231    0.9261        55
+weighted avg     0.9361    0.9273    0.9266        55
+
+Kernel: sigmoid
+              precision    recall  f1-score   support
+
+           0     0.6897    0.7692    0.7273        26
+           1     0.7692    0.6897    0.7273        29
+
+    accuracy                         0.7273        55
+   macro avg     0.7294    0.7294    0.7273        55
+weighted avg     0.7316    0.7273    0.7273        55
