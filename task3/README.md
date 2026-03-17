@@ -1,4 +1,4 @@
-# K-Means Assignment (Lab03)
+# K-Means Assignment
 
 ## 文件说明
 
@@ -32,27 +32,3 @@ python kmeans_assignment.py
 - 在 `outputs/` 文件夹生成多张图片：
   - Iris 数据集的聚类结果对比图
   - make_blobs 数据集的算法结果与真实标签对比图（每个算法都有对比图）
-
-## 提交说明
-
-本次作业限时一周，请按时提交到 Canvas。
-
-**打包命令**（在 task3 目录下运行）：
-
-```powershell
-Compress-Archive -Path kmeans_assignment.py,requirements.txt,README.md,outputs -DestinationPath ..\task3_submission.zip -Force
-```
-
-或打包整个文件夹：
-
-```powershell
-cd ..
-Compress-Archive -Path task3 -DestinationPath task3_submission.zip -Force
-```
-
-## 特别说明
-
-- ✅ 关键步骤在代码中有详细的中文注释
-- ✅ 第 3、4、5 部分只输出图片和指标结果（不回答问题）
-- ✅ 第 5 More 部分特征维度统一设置为 2
-- ✅ 每个算法完成后都输出算法结果和标签结果的对比图
